@@ -1,0 +1,27 @@
+.grid-movie-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.movie-list-container {
+  padding: 15px;
+  height: 40vh;
+}
+.page-btn {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.page-btn button {
+  display: block;
+  padding: 5px 10px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  transition: 0.2s;
+}
+.page-btn button:hover {
+  background-color: white;
+  color: black;
+}
